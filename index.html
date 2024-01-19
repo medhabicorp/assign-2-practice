@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour To Nature</title>
+    
+    <link rel="stylesheet" href="styles/tour.css">
+<style>
+    body{
+        margin: 50px 135px;
+    }
+    .header{
+        border: 1px solid orangered;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .log-title, .nav-menu{
+        border: 2px dashed black;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+    .logo{
+        height: 100%;
+        
+    }
+    .focus-color{
+        color: tomato;
+    }
+
+    .title{
+        font-size: ;
+    }
+    .nav-menu{
+        justify-content: space-between;
+        gap: 2.25rem;
+    }
+    .nav-menu a{
+        text-decoration: none;
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+    a:first-child{
+        color: tomato;
+        font-weight: 700;
+    }
+    .frame-icon{
+    overflow: hidden;
+    background-color: #fff;
+    position: relative;
+    display: none;
+    }
+
+    @media screen and (max-width: 600px){
+    body{
+        margin: 1.5rem;
+        }
+        
+    }
+</style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="log-title">
+            <img src="Images/Group 40071.png" alt="" class="logo">
+            <h1 class="title">Tour To <span class="focus-color">Nature</span></h1>
+        </div>
+        <div class="nav-menu">
+            <a href="#">Home</a>
+            <a href="#">Packages</a>
+            <a href="#">Hot Offers</a>
+            <a href="#">login</a>
+            <a href="#">contact</a>
+            <img src="Images/Frame.svg" alt="" class="frame-icon">
+        </div>
+    </header>    
+</body>
+</html>
